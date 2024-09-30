@@ -1,0 +1,76 @@
+#volunteer-page {
+  margin: 20px;
+}
+
+.row {
+  margin-top: 50px;
+}
+.card-body {
+  max-width: 100%;
+}
+.col-md-8 {
+  margin-top: 20px;
+}
+.col-md-4 {
+  margin-top: 20px;
+}
+
+#page1 {
+  background-color: #541253;
+
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+#page1 h1 {
+  color: goldenrod;
+}
+
+.volunteerhands {
+  margin-top: -100px;
+  border: 10px solid black;
+  border-radius: 10px;
+  max-width: 70%;
+}
+
+#page2 h1 {
+  border-bottom: 3px solid #541253;
+  color: #541253;
+  font-weight: 800;
+  font-size: 55px;
+  margin: 0px 5% 5%;
+  padding-top: 75px;
+}
+
+#page2 .indexcard {
+  background-color: #541253;
+  color: white;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+
+#page2 h4 {
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+#page2 {
+  background-color: #e3c2f1;
+}
+
+#page2 h2 {
+  padding: 0px 0px 18px 35px;
+  font-size: 25px;
+}
+
+#page2 p {
+  padding: 7px 0px 7px 40px;
+}
+
+.indexcard .img-fluid {
+  max-height: 150px;
+}

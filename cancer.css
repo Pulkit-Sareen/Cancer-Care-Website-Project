@@ -1,0 +1,19 @@
+.cancer {
+  max-width: 60% !important;
+  margin-top: -150px;
+}
+
+
+#typeofcancer {
+  margin-top: -125px;
+  border: 10px solid black;
+}
+
+.headingcard {
+  color: goldenrod;
+}
+
+strong {
+  color: goldenrod;
+}
+

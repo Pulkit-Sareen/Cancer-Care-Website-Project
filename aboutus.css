@@ -1,0 +1,20 @@
+html {
+  scroll-behavior: smooth;
+}
+body,
+html {
+  overflow-x: hidden;
+}
+.footer-image {
+  padding-top: 50px;
+}
+
+.aboutus {
+  margin-top: -150px;
+  max-width: 60%;
+}
+.col-md-12{
+  padding-left: 0;
+  padding-right: 0;
+}
+

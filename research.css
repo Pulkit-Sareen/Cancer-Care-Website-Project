@@ -1,0 +1,40 @@
+* {
+  text-decoration: none;
+}
+
+.researchimage {
+  margin-top: -150px;
+  border: 10px solid black;
+  border-radius: 10px;
+  max-width: 70%;
+}
+
+.headingcard {
+  color: goldenrod;
+}
+
+strong {
+  color: goldenrod;
+}
+.applycard {
+  background-color: #541253;
+  border: 10px solid black;
+  border-radius: 10px;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.testimonial {
+  color: goldenrod;
+}
+.custom-file {
+  margin-top: 30px;
+}
+
+.testimonial .col-md-4 {
+  margin-bottom: 20px;
+}
+.card-img-top {
+  margin: auto;
+  max-width: 200px;
+}

@@ -1,0 +1,56 @@
+#donatepage {
+  padding-bottom: 50px;
+}
+body {
+  background-color: #541253 !important;
+}
+.card {
+  max-width: 400px;
+  margin: auto;
+}
+.card-body {
+  height: auto;
+  max-width: 400px;
+}
+
+#amount {
+  width: 50%;
+  margin: auto;
+}
+@media (max-width: 767px) {
+  #donateimage {
+    display: none;
+  }
+}
+
+#page1 {
+  background-color: #541253;
+  padding-bottom: 190px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+#page1 h1 {
+  color: goldenrod;
+}
+
+.donatecard {
+  background-color: #541253;
+  border: 10px solid black;
+  border-radius: 10px;
+  color: white;
+  margin-top: -50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#donateimage {
+  max-height: 150px;
+}
+
+.donatecard h1 {
+  border-bottom: 2px solid white;
+}

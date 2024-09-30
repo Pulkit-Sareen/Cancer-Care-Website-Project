@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Donate</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="donate.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+  <section id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <a href="index.html" class="navbar-brand"><img src="images/symbol.png" class="navbar-image" /></a>
+      <a href="index.html" id="brand-title">Child Cancer Care</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item-active">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item-active">
+            <a href="aboutcancer.html" class="nav-link">About Cancer</a>
+          </li>
+          <li class="nav-item-active">
+            <a href="resources.html" class="nav-link">Resources</a>
+          </li>
+          <li class="nav-item-active">
+            <a href="research.html" class="nav-link">Research</a>
+          </li>
+          <li class="nav-item-active">
+            <a href="aboutus.html" class="nav-link">About us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+  <section id="page1">
+    <div class="container text-center">
+      <h1>Donate to someone in need</h1>
+      <h3>You can make a difference</h3>
+    </div>
+  </section>
+  <section id="donatepage">
+    <div class="container text-center">
+      <div class="row donatecard">
+        <div class="col-md-6">
+          <h1 class="text-centre">Donate</h1>
+          <form class="row g-3" id="donateform">
+            <div class="col-md-6">
+              <label for="firstName" class="form-label">First Name</label>
+              <input type="text" class="form-control" id="first_name" name="first_name" required />
+            </div>
+            <div class="col-md-6">
+              <label for="lastName" class="form-label">Last Name</label>
+              <input type="text" class="form-control" id="last_name" name="last_name" required />
+            </div>
+            <div class="col-md-6">
+              <label for="emailInfo" class="form-label">E-mail</label>
+              <input type="email" class="form-control" id="email" name="email" required />
+            </div>
+            <div class="col-md-6">
+              <label for="phoneNumber" class="form-label">Phone Number</label>
+              <input type="text" class="form-control" id="phone_number" name="phone_number" />
+            </div>
+            <div class="col-md-12">
+              <label for="amount" class="form-label">Amount</label>
+              <input type="number" class="form-control" id="amount" name="amount" required />
+            </div>
+            <button type="submit" class="btn btn-dark mt-5">Submit</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <img src="images/donatelogo2.png" class="img-fluid" id="donateimage" />
+          <h3>Your money goes directly to families and patients in need</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <img src="images/wave1.png" class="footer-wave" />
+  <footer id="footer">
+    <div class="container">
+      <div style="display: flex">
+        <img src="images/symbol.png" class="img-fluid" />
+        <p id="footer-title">Child Cancer Care</p>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <p>
+            We are non-profit organisation promoting welfare for the patients
+            of cancer.
+          </p>
+          <h3 style="color: goldenrod">Newsletter</h3>
+          <p>Subscribe to our monthly newsletter</p>
+          <div class="container">
+            <div class="col-xs-6 inputcol" id="inputcolumn">
+              <input type="text" class="form-control" placeholder="Enter Email" />
+            </div>
+
+            <div class="col-xs-6 footercol" id="footerbuttoncolumn">
+              <button class="btn btn-dark footerbutton" type="button">
+                Subscribe
+              </button>
+            </div>
+          </div>
+          <small class="form-text">We'll never share your email with anyone else.</small>
+        </div>
+
+        <div class="col-md-6 text-center">
+          <div class="row">
+            <div class="col-md-6">
+              <a href="aboutus.html" class="bottom">About Us</a>
+              <a href="contactpage.html" class="bottom">Contact Us</a>
+              <a href="aboutcancer.html" class="bottom">About Cancer</a>
+            </div>
+
+            <div class="col-md-6">
+              <a href="volunteer.html" class="bottom">Volunteer</a>
+              <a href="donate.html" class="bottom">Donate</a>
+              <a href="events.html" class="bottom">Explore Events</a>
+            </div>
+
+            <div class="col-md-12">
+              <div class="container text-center">
+                <h5>Follow Us</h5>
+                <div class="row justify-content-center">
+                  <button type="button" class="btn btn-primary btn-lg btn-floating mx-2"
+                    style="background-color: #54456b">
+                    <i class="fab fa-facebook-f"></i>
+                  </button>
+                  <button type="button" class="btn btn-primary btn-lg btn-floating mx-2"
+                    style="background-color: #54456b">
+                    <i class="fab fa-youtube"></i>
+                  </button>
+                  <button type="button" class="btn btn-primary btn-lg btn-floating mx-2"
+                    style="background-color: #54456b">
+                    <i class="fab fa-instagram"></i>
+                  </button>
+                  <button type="button" class="btn btn-primary btn-lg btn-floating mx-2"
+                    style="background-color: #54456b">
+                    <i class="fab fa-twitter"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button type="button" class="btn" id="topbutton">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+</body>
+
+<script>
+  let mybutton = document.getElementById("topbutton");
+
+  window.onscroll = function () {
+    scrollFunction();
+  };
+
+  function scrollFunction() {
+    if (
+      document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20
+    ) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  mybutton.addEventListener("click", backToTop);
+
+  function backToTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset: 150,
+    duration: 800,
+  });
+</script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  (function () {
+    emailjs.init("zkXRiNZyWsBjj32Vu");
+  })();
+</script>
+
+<script>
+  document
+    .getElementById("donateform")
+    .addEventListener("submit", function (event) {
+      event.preventDefault();
+      emailjs
+        .sendForm("service_ctohqjr", "template_vdo3snq", this)
+        .then(() => {
+          alert("Thank you for your donation");
+        })
+        .then(() => {
+          document.getElementById("donateform").reset();
+        });
+    });
+</script>
+
+</html>

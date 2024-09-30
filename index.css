@@ -1,0 +1,142 @@
+body,
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+#firstpage {
+  background-color: #541253;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 90px;
+}
+
+.main-text h1 {
+  color: goldenrod;
+  border-bottom: none;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.main-para {
+  font-size: 25px !important;
+  color: white;
+  padding-top: 50px;
+}
+#contributepage {
+  background-color: #e3c2f1;
+}
+#contributepage h1 {
+  border-bottom: 3px solid #541253;
+  color: #541253;
+  font-size: 55px;
+  padding-top: 50px;
+  margin: 0px 5% 5%;
+}
+
+#contributepage h5 {
+  color: white;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+#contributepage p {
+  font-size: 17px;
+  font-family: sans-serif;
+}
+
+.card-img-top {
+  max-height: 200px;
+  max-width: 200px;
+  margin: auto;
+}
+.card {
+  padding: 20px 20px 20px 20px;
+  background-color: #541253;
+  border-radius: 10px;
+}
+#contributepage .col-md-4 {
+  margin-bottom: 20px;
+}
+.card-body {
+  color: white;
+}
+
+#page2 {
+  background-color: #e3c2f1;
+}
+
+#page2 h2 {
+  padding: 0px 0px 18px 35px;
+  font-size: 25px;
+}
+
+#page2 p {
+  padding: 7px 0px 7px 40px;
+}
+
+#page2 h1 {
+  border-bottom: 3px solid #541253;
+  color: #541253;
+  font-weight: 800;
+  font-size: 55px;
+}
+
+#page2 .img-fluid {
+  max-height: 150px;
+}
+
+#page2 h1 {
+  border-bottom: 3px solid #541253;
+  color: #541253;
+  font-weight: 800;
+  font-size: 55px;
+  margin: 0px 5% 5%;
+  padding-top: 75px;
+}
+
+#page2 .indexcard {
+  background-color: #541253;
+  color: white;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+
+  box-shadow: 0px 0px 15px black;
+}
+
+#page2 h4 {
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  #collage-image {
+    display: none;
+  }
+}
+
+#footer {
+  background-color: #541253 !important;
+}
+/* top button */
+#topbutton {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  display: none;
+  border-top-left-radius: 100%;
+
+  border-bottom-right-radius: 0;
+  background-color: goldenrod;
+  padding: 50px 0 0 50px;
+}
+
+#topbutton i {
+  font-size: 30px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}

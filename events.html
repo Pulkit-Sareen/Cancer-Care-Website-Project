@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="events.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+</head>
+
+<body>
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <a href="index.html" class="navbar-brand"><img src="images/symbol.png" class="navbar-image" /></a>
+            <a href="index.html" id="brand-title">Child Cancer Care</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item-active">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item-active">
+                        <a href="aboutcancer.html" class="nav-link">About Cancer</a>
+                    </li>
+                    <li class="nav-item-active">
+                        <a href="resources.html" class="nav-link">Resources</a>
+                    </li>
+                    <li class="nav-item-active">
+                        <a href="research.html" class="nav-link">Research</a>
+                    </li>
+                    <li class="nav-item-active">
+                        <a href="aboutus.html" class="nav-link">About us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <section id="page1">
+        <div class="container text-center">
+            <h1>Participate in our Events</h1>
+            <h3>Join us in our various events and campaigns and show your support</h3>
+        </div>
+    </section>
+    <section id="upcoming-events">
+        <div class="container">
+            <div class="row">
+
+                <div class="container carousel">
+                    <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="d-block w-100" src="images/awareness.jpg" id="carouselimage">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="images/cancerday.jpg" id="carouselimage">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-100" src="images/support.png" id="carouselimage">
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+            <section id="upcomingevents">
+                <div class="container text-center">
+                    <h1 class="text-center">Upcoming Events</h1>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card h-100">
+                                <img src="images/awareness.jpg" class="card-img-top" />
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Cancer Awareness Event</h5>
+                                    <p class="card-text">Date: 8 July 2023</p>
+                                </div>
+                                <a href="#applypage" class="btn btn-dark">Apply</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100">
+                                <img src="images/cancerday.jpg" class="card-img-top" />
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Annual Cancer Day Event</h5>
+                                    <p class="card-text">Date: 4 February 2024</p>
+                                </div>
+                                <a href="#applypage" class="btn btn-dark">Apply</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100">
+                                <img src="images/support.png" class="card-img-top" />
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Childhood Cancer Support Event</h5>
+                                    <p class="card-text">Date: 4 November</p>
+                                </div>
+                                <a href="#applypage" class="btn btn-dark">Apply</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+    </section>
+    <section id="applypageheading">
+        <div class="container text-center">
+            <h1>Apply to Participate in our Regular events</h1>
+            <h3>Choose to be a participate or help set it up</h3>
+        </div>
+    </section>
+    <section id="applypage">
+        <div class="container text-center">
+            <div class="row applycard">
+                <div class="col-md-8">
+                    <h1 class="text-centre">Fill up these details</h1>
+
+                    <form class="row g-3 " id="eventform">
+                        <div class="col-md-6 mt-3">
+                            <label for="inputFirst" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="FirstName" name="firstName" />
+                        </div>
+
+                        <div class="col-md-6 mt-3">
+                            <label for="inputLast" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="LastName" name="lastName" />
+                        </div>
+
+                        <div class="col-12 mt-3">
+                            <label for="inputMail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="Email" placeholder="abc@gmail.com"
+                                name="email" />
+                        </div>
+
+                        <div class="col-12 mt-3">
+                            <label for="inputNumber" class="form-label">Phone Number</label>
+                            <input type="number" class="form-control" id="inputNumber" name="phoneNumber" />
+                        </div>
+
+
+
+
+
+                        <div class="col-md-12 mt-3" id="inputEvent">
+                            <label for="inputEvent" class="form-label">Select Event</label>
+                            <select class="form-select" name="event">
+                                <option selected></option>
+                                <option>Cancer Awareness Event</option>
+                                <option>Annual Cancer Day Event</option>
+                                <option>Childhood Cancer Support Event</option>
+                            </select>
+                        </div>
+
+                        <div class="col-12 mt-3">
+                            <button type="submit" class="btn btn-dark">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/eventimage.png" class="img-fluid" id="applyimage" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="past">
+        <div class="container text-center">
+            <div class="category-filter">
+                <div class="container">
+                    <div class="title">
+                        <h1>Past Events</h1>
+                    </div>
+
+                    <div class="filter-btns">
+                        <button type="button" class="filter-btn" id="all">All Events</button>
+                        <button type="button" class="filter-btn" id="2022">2022</button>
+                        <button type="button" class="filter-btn" id="2021">2021</button>
+                        <button type="button" class="filter-btn" id="2020">2020</button>
+                    </div>
+
+                    <div class="filter-items">
+                        <div class="filter-item all 2022">
+                            <div class="item-info">
+                                <div class="card h-100">
+                                    <img src="images/support.png" class="card-img-top" />
+
+                                    <div class="card-body">
+                                        <h5 class="card-title">Annual Cancer Day Celebration</h5>
+                                        <p class="card-text">Date: 4 February 2022</p>
+                                    </div>
+                                    <a href="#" class="btn btn-dark">Explore</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="filter-item all 2021">
+
+                            <div class="item-info">
+                                <div class="card h-100">
+                                    <img src="images/2021.jpg" class="card-img-top" />
+
+                                    <div class="card-body">
+                                        <h5 class="card-title">Annual Cancer Day Celebration</h5>
+                                        <p class="card-text">Date: 4 February 2021</p>
+                                    </div>
+                                    <a href="#" class="btn btn-dark">Explore</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="filter-item all 2020">
+
+                            <div class="item-info">
+                                <div class="card h-100">
+                                    <img src="images/support.png" class="card-img-top" />
+
+                                    <div class="card-body">
+                                        <h5 class="card-title">Annual Cancer Day Celebration</h5>
+                                        <p class="card-text">Date: 4 February 2020</p>
+                                    </div>
+                                    <a href="#" class="btn btn-dark">Explore</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+      <img src="images/wave1.png" class="footer-wave" />
+    <footer id="footer">
+      <div class="container">
+        <div style="display: flex">
+          <img src="images/symbol.png" class="img-fluid" />
+          <p id="footer-title">Child Cancer Care</p>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <p>
+              We are non-profit organisation promoting welfare for the patients
+              of cancer.
+            </p>
+            <h3 style="color: goldenrod">Newsletter</h3>
+            <p>Subscribe to our monthly newsletter</p>
+            <div class="container">
+              <div class="col-xs-6 inputcol" id="inputcolumn">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter Email"
+                />
+              </div>
+
+              <div class="col-xs-6 footercol" id="footerbuttoncolumn">
+                <button class="btn btn-dark footerbutton" type="button">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+            <small class="form-text"
+              >We'll never share your email with anyone else.</small
+            >
+          </div>
+
+          <div class="col-md-6 text-center">
+            <div class="row">
+              <div class="col-md-6">
+                <a href="aboutus.html" class="bottom">About Us</a>
+                <a href="contactpage.html" class="bottom">Contact Us</a>
+                <a href="aboutcancer.html" class="bottom">About Cancer</a>
+              </div>
+
+              <div class="col-md-6">
+                <a href="volunteer.html" class="bottom">Volunteer</a>
+                <a href="donate.html" class="bottom">Donate</a>
+                <a href="events.html" class="bottom">Explore Events</a>
+              </div>
+
+              <div class="col-md-12">
+                <div class="container text-center">
+                  <h5>Follow Us</h5>
+                  <div class="row justify-content-center">
+                    <button
+                      type="button"
+                      class="btn btn-primary btn-lg btn-floating mx-2"
+                      style="background-color: #54456b"
+                    >
+                      <i class="fab fa-facebook-f"></i>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-primary btn-lg btn-floating mx-2"
+                      style="background-color: #54456b"
+                    >
+                      <i class="fab fa-youtube"></i>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-primary btn-lg btn-floating mx-2"
+                      style="background-color: #54456b"
+                    >
+                      <i class="fab fa-instagram"></i>
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-primary btn-lg btn-floating mx-2"
+                      style="background-color: #54456b"
+                    >
+                      <i class="fab fa-twitter"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <script>
+        const allFilterItems = document.querySelectorAll('.filter-item');
+        const allFilterBtns = document.querySelectorAll('.filter-btn');
+
+        window.addEventListener('DOMContentLoaded', () => {
+            allFilterBtns[0].classList.add('active-btn');
+        });
+
+        allFilterBtns.forEach((btn) => {
+            btn.addEventListener('click', () => {
+                showFilteredContent(btn);
+            });
+        });
+
+        function showFilteredContent(btn) {
+            allFilterItems.forEach((item) => {
+                if (item.classList.contains(btn.id)) {
+                    resetActiveBtn();
+                    btn.classList.add('active-btn');
+                    item.style.display = "block";
+                } else {
+                    item.style.display = "none";
+                }
+            });
+        }
+
+        function resetActiveBtn() {
+            allFilterBtns.forEach((btn) => {
+                btn.classList.remove('active-btn');
+            });
+        }
+    </script>
+
+
+    <button type="button" class="btn " id="topbutton">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+</body>
+
+<script>
+    let mybutton = document.getElementById("topbutton");
+
+    window.onscroll = function () {
+        scrollFunction();
+    };
+
+    function scrollFunction() {
+        if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+        ) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+    mybutton.addEventListener("click", backToTop);
+
+    function backToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        offset: 150,
+        duration: 800,
+    });
+</script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<script type="text/javascript">(function () {
+        emailjs.init("zkXRiNZyWsBjj32Vu");
+    })();
+</script>
+
+<script>
+    document
+        .getElementById("eventform")
+        .addEventListener("submit", function (event) {
+            event.preventDefault();
+            emailjs.sendForm("service_ctohqjr", "template_crxrbah", this).then(
+                () => {
+                    alert("Your application has been sent successfully");
+
+                }
+
+
+            ).then(
+                () => {
+                    document.getElementById("eventform").reset()
+                }
+            )
+                ;
+
+        });
+
+</script>

@@ -1,0 +1,107 @@
+#upcoming-events {
+  max-width: 100%;
+  height: auto;
+  margin-top: 40px;
+}
+#carousel {
+  max-width: 260px !important;
+  height: auto;
+  margin: -100px auto 0 auto;
+}
+#carouselimage {
+  max-height: 230px;
+}
+
+#upcomingevents {
+  margin: 40px 0px 40px 0;
+  height: auto;
+}
+
+.apply-btn {
+  display: block;
+  background-color: #541253;
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+.apply-btn:hover {
+  text-decoration: none;
+  transition: 0.4s;
+  background-color: #e3c2f1;
+  color: black;
+}
+
+.title {
+  margin-bottom: 40px;
+}
+.filter-btns {
+  text-align: center;
+}
+.filter-btn {
+  background: none;
+  cursor: pointer;
+  border: none;
+  margin: 10px 30px;
+
+  color: #541253;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.filter-btn:hover {
+  color: black;
+}
+.filter-btn:hover::after {
+  width: 100%;
+}
+
+.active-btn {
+  color: black;
+  text-decoration: underline;
+}
+.active-btn::after {
+  width: 100%;
+}
+
+.card-img-top {
+  max-height: 200px;
+  max-width: 200px;
+  margin: auto;
+}
+#carousel {
+  border: 10px solid black;
+}
+
+/* apply css */
+#applypage {
+  padding-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+  #applyimage {
+    display: none;
+  }
+}
+
+.applycard {
+  background-color: #541253;
+  border: 10px solid black;
+  border-radius: 10px;
+  color: white;
+  margin-top: -50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#applyimage {
+  max-height: 300px;
+  margin-top: 75px;
+}
+
+#applypageheading {
+  padding-bottom: 190px;
+
+  color: black;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
