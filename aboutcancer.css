@@ -1,0 +1,77 @@
+@media (max-width: 767px) {
+  #quick-link {
+    display: none;
+  }
+}
+
+.card {
+  padding: 10px;
+}
+
+.card img {
+  height: 150px;
+  width: 225px;
+}
+#symptoms ul {
+  padding-left: 20px;
+}
+#symptoms ul li {
+  padding: 10px;
+}
+
+.accordion-button {
+  padding-top: 5px;
+  background-color: #e3c2f1;
+  width: 100%;
+  border: none;
+}
+
+.accordion-header {
+  border: transparent;
+  margin: 0;
+  border-bottom: 2px solid black;
+}
+
+.accordion-header h4 {
+  color: black;
+  margin-top: 0.5rem;
+}
+
+.accordion-body {
+  background-color: none;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.accordion-item {
+  margin: auto;
+  width: 80%;
+}
+
+#collapseOne {
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+#collapseTwo {
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+#collapseThree {
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+strong {
+  color: goldenrod;
+  font-size: 20px;
+}
+
+.aboutcancer {
+  margin-top: -100px;
+  max-width: 60%;
+}
